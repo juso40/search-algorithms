@@ -1,6 +1,11 @@
 #include <vector>
 #include <iostream>
 
+/*
+Linear search is the easiest and safest search algorithm for an unsorted array.
+Complexity O(n)
+*/
+
 int linearSearch(const std::vector<int> &arr, int to_find){  // Returns the index of the element, if not found returns -1.
     for (int i = 0; i < arr.size(); i++){
         if (arr[i] == to_find){
